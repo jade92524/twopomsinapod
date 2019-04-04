@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.75;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    height: 100%;
+    font-family: Calibri, Candara, Arial, sans-serif;
+}
+
+body {
+    background: #a7c5c1;
+    height: 100%;
+/*    max-width: 100%;*/
+    /*light yellow - #fbec8f*/
+    /*azure - #79b7b4*/
+    /*aqua - #add8bd*/
+/*  dark turquoisse  #3a96b8*/
+}
+
+h1 {
+    font-size: 70px;
+}
+header {
+    padding: 5% 10%;
+    font-family: 'Dancing Script', cursive;
+}
+
+header p{
+    font-size: 30px;
+}
+
+#page {
+    background-color: #fff;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #ccc; 
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border-top: double;
+    border-bottom: double;
+    padding: 15px;
+    /*background-color: #fbec8f;*/   
+}
+
+nav ul a {
+    font-weight: bold;
+    text-decoration: none;
+    /*padding: 0px 20px;*/
+}
+
+nav ul li a:link {
+    color: #A9A9A9;
+}
+
+nav ul li a:visited {
+    color: #00CED1;    
+}
+
+nav ul li a:hover {
+    color: #9400D3;
+}
+
+nav ul li a:active {
+}
+
+.fa-paw {
+    padding: 10px;
+    
+}
+#banner {
+    width:100%;
+    padding: 5% 15%;
+}
+
+footer {
+    padding-top: 300px;
+}
+
+main {
+    display: flex;
+}
+.round {
+    padding: 5% 10%;
+    margin: 0 30px;
+}
+
+
+.mini {
+    width: 100%;
+    border-radius: 100px;
+}
+
+.round {
+    text-align: center;
+    
+}
+
+.round a {
+    text-decoration: none;
+}
+
+
+/*Code from other assignment follows*/
+
+section {
+    padding: 30px;
+    display: flex;
+    /*position: relative;*/
+    /*left: 180px;*/
+}
+
+
+p {
+    padding: 15px;
+ 
+}
+
+section ul {
+    margin-left: 260px;
+}
+
+
+div {padding: 20px;
+}
+
+/*img {*/
+/*    float: left;*/
+/*    margin: 10px;*/
+/*}*/
+.pics {
+    display:flex;
+    justify-content:space-between;
+    padding: 5% 0;
+}
+
+#hobbies {
+    content: 700 px;
+}    
+
+#small {
+    width: 48%;
+}
+
+/*Using breakpoints to adjust for screen size*/
+@media screen and (max-width: 480px) {
+    section {flex-direction: column;
+        width: 30%;
+        height: auto;
+    }
+    
+}
