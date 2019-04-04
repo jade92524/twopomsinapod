@@ -131,10 +131,10 @@ section ul {
 div {padding: 20px;
 }
 
-/*img {*/
-/*    float: left;*/
-/*    margin: 10px;*/
-/*}*/
+#small img {
+    float: left;
+    margin: 10px;
+}
 .pics {
     display:flex;
     justify-content:space-between;
@@ -149,11 +149,93 @@ div {padding: 20px;
     width: 48%;
 }
 
-/*Using breakpoints to adjust for screen size*/
-@media screen and (max-width: 480px) {
-    section {flex-direction: column;
-        width: 30%;
+/*Using breakpoints to adjust for smaller computer screen size*/
+@media screen and (max-width: 800px) {
+    #page {
+        width: 100%;
         height: auto;
+        background-color: #FFfBE8;
     }
     
+    html {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    div {
+        padding: 0;
+    }
+    
+  
+    .fa-paw {
+    padding: 0;
+    
+}
+    section {
+        display: block;
+        padding: 0;
+    }
+    
+    section ul{
+        margin: 0 10%;
+        text-align: left;
+        
+}
+    #small {
+        
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 10%;
+        /*border: solid;*/
+    }
+    
+    #small p {
+
+        text-align: center;
+        background: #FFfBE8;
+    }
+    #small img {
+        margin: auto;
+    }
+}
+
+/*Breakpoints for smartphones*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+       #page {
+        height: auto;
+        background-color: blue;
+    }
+    
+    html {
+        font-size: 12px;
+    }
+    
+    section {
+        display: block;
+        padding: 0;
+    }
+    
+    section ul{
+        margin: 10%;
+        text-align: left;
+    }
+    #small {
+        width:20vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #small p {
+        /*margin: 10%;*/
+        text-align: center;
+        background: white;
+       
+    }
+
 }
