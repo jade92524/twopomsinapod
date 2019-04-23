@@ -215,9 +215,10 @@ img {
         font-weight: bold;
     }
     
-    header {
+    header, h1 {
         text-align: center;
     }
+    
     
     div {
         padding: 0;
