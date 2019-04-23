@@ -145,7 +145,8 @@ main {
 section {
     padding: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    
     
 }
 
@@ -153,7 +154,7 @@ section {
 article {
     padding: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -200,7 +201,6 @@ div {padding: 20px;
 
 img {
     padding: 5px;
-    width: auto;
 }
 
 
